@@ -7,16 +7,40 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <title>Frontend Mentor | Pod request access landing page</title>
     </head>
     <body>
-        Publish your podcasts everywhere.
-
-        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-        Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-        Request access
+        <div class="container">
+            <header class="header">
+                <img src="./assets/desktop/logo.svg" alt="Pod logo">
+            </header>
+            
+            <main class="content">
+                <h1 class="heading-main"><span class="heading-main__highlite">Publish your podcasts</span> everywhere.</h1>
+                <p class="paragraph">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+                    Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+                <ul class="stream-services">
+                    <li>
+                        <img src="./assets/desktop/spotify.svg" alt="Spotify" class="stream-services__spotify">
+                    </li>
+                    <li>
+                        <img src="./assets/desktop/apple-podcast.svg" alt="Apple Podcast" class="stream-services__apple-podcast">
+                    </li>
+                    <li>
+                        <img src="./assets/desktop/google-podcasts.svg" alt="Google Podcasts" class="stream-services__google-podcasts">
+                    </li>
+                    <li>
+                        <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts" class="stream-services__pocket-casts">
+                    </li>
+                </ul>
+                <form action="#" class="form">
+                    <label for="email" class="visually-hidden">Email address</label>
+                    <input type="email" name="email" id="email" placeholder="Email address" class="form__input form-text">
+                    <button type="submit" class="btn-main form-text">Request access</button>
+                </form>
+            </main>
+        </div>
     </body>
 </html>

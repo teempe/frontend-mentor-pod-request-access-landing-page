@@ -1,0 +1,21 @@
+.form {
+    display: grid;
+    gap: 1.6rem;
+
+    &__input {
+        @include form-element-setup;
+        
+        padding-left: 3.2rem;
+        background-color: var(--color-dark-blue);
+        color: var(--color-white);
+
+        &::placeholder {
+            color: var(--color-white);
+            opacity: 0.5;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

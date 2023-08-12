@@ -1,0 +1,21 @@
+.content {
+    max-width: 37.5rem;
+    padding: 0 2.4rem;
+    text-align: center;
+
+    & .heading-main {
+        margin-bottom: 1.6rem;
+    }
+
+    & .paragraph {
+        margin-bottom: 3.3rem;
+    }
+
+    & .stream-services {
+        margin-bottom: 4.8rem;
+    }
+
+    & .form {
+        margin-bottom: 9.4rem;
+    }
+}

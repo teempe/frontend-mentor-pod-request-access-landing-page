@@ -1,4 +1,35 @@
 body {
     font-family: var(--ff-base);
-    font-weight: var(--fw-regular);
+    font-weight: var(--fw-light);
+}
+
+.heading-main {
+    font-weight: inherit;
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    text-transform: uppercase;
+    color: var(--color-white);
+
+    &__highlite {
+        color: var(--color-lime-green);
+    }
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--color-grayish-blue);
+}
+
+.error-msg-text {
+    font-weight: var(--fw-bold);
+    font-size: 1.2rem;
+    color: var(--color-red);
+}
+
+.form-text {
+    font-family: inherit;
+    font-weight: var(--fw-bold);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
 }

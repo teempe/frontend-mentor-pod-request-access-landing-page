@@ -1,0 +1,23 @@
+.stream-services {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__spotify {
+        width: 5.6rem;
+    }
+
+    &__apple-podcast {
+        width: 4.5rem;
+    }
+
+    &__google-podcasts {
+        width: 7.3rem;
+    }
+
+    &__pocket-casts {
+        width: 7.7rem;
+    }
+}

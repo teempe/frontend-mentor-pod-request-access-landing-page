@@ -1,5 +1,6 @@
 :root {
     --color-lime-green: #54E6AF;
+    --color-pale-cyan: #B3FFE2;
     --color-very-dark-blue: #121725;
     --color-dark-blue: #2C344B;
     --color-light-dark-blue: #5A668A;
@@ -8,7 +9,9 @@
     --color-red: #FB3E3E;
 
     --ff-base: 'Chivo', sans-serif;
+    --fw-light: 100;
     --fw-regular: 400;
+    --fw-bold: 700;
 }
 
 // Breakpoints
@@ -27,4 +30,12 @@ img {
 
 html {
     font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-very-dark-blue);
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    min-height: 100vh;
 }

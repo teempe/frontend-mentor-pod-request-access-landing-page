@@ -1,0 +1,12 @@
+.btn-main {
+    @include form-element-setup;
+    
+    background-color: var(--color-lime-green);
+    color: var(--color-very-dark-blue);
+    transition: background-color 0.25s ease-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color-pale-cyan);
+    }
+}
