@@ -152,6 +152,7 @@ body {
   }
   .content .stream-services {
     grid-area: services;
+    max-width: 53.6rem;
     margin-bottom: 0rem;
   }
   .content .form {
@@ -180,6 +181,9 @@ body {
   width: 7.7rem;
 }
 @media only screen and (min-width: 48em) {
+  .stream-services {
+    justify-content: space-between;
+  }
   .stream-services__spotify {
     width: auto;
   }

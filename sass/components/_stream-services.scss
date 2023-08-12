@@ -22,6 +22,8 @@
     }
 
     @media only screen and (min-width: $bp-tablet) {
+        justify-content: space-between;
+
         &__spotify {
             width: auto;
         }
