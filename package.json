@@ -1,0 +1,16 @@
+{
+  "name": "frontend-mentor-pod-request-access-landing-page",
+  "version": "1.0.0",
+  "description": "Frontend Mentor - Pod request access landing page solution",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "teempe",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}

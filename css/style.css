@@ -1,0 +1,32 @@
+:root {
+  --color-lime-green: #54E6AF;
+  --color-very-dark-blue: #121725;
+  --color-dark-blue: #2C344B;
+  --color-light-dark-blue: #5A668A;
+  --color-grayish-blue: #C2CBE5;
+  --color-white: #FFF;
+  --color-red: #FB3E3E;
+  --ff-base: "Chivo", sans-serif;
+  --fw-regular: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+}
+
+/*# sourceMappingURL=style.css.map */
