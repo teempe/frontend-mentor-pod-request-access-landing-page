@@ -13,12 +13,22 @@ body {
     &__highlite {
         color: var(--color-lime-green);
     }
+
+    @media only screen and (min-width: $bp-tablet) {
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+    }
 }
 
 .paragraph {
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: var(--color-grayish-blue);
+
+    @media only screen and (min-width: $bp-tablet) {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
 }
 
 .error-msg-text {

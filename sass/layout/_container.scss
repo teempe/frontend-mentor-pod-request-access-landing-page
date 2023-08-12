@@ -1,10 +1,26 @@
-.container {    
-    background: 
-        no-repeat url("../assets/mobile/image-host.jpg"), 
-        var(--color-very-dark-blue);
-
-    background-blend-mode: multiply;
+.container {
+    width: 100%;
+    max-width: var(--max-width-mobile);
+    padding: 6.2rem 2.4rem 9.4rem 2.4rem;
 
     display: grid;
     justify-items: center;
+
+    background: 
+        no-repeat url("../assets/mobile/image-host.jpg"), 
+        var(--color-very-dark-blue);
+    background-blend-mode: multiply;
+
+    @media only screen and (min-width: $bp-tablet) {
+        max-width: var(--max-width-tablet);
+        padding: 5rem 9.4rem 25.7rem 3.9rem;
+
+        justify-items: start;
+
+        background:
+            no-repeat bottom 0 left 3rem url("../assets/desktop/bg-pattern-dots.svg"),
+            no-repeat right 0 top 0 url("../assets/tablet/image-host.jpg"), 
+            var(--color-very-dark-blue);
+        background-blend-mode: normal;
+    }
 }

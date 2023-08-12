@@ -20,4 +20,22 @@
     &__pocket-casts {
         width: 7.7rem;
     }
+
+    @media only screen and (min-width: $bp-tablet) {
+        &__spotify {
+            width: auto;
+        }
+    
+        &__apple-podcast {
+            width: auto;
+        }
+    
+        &__google-podcasts {
+            width: auto;
+        }
+    
+        &__pocket-casts {
+            width: auto;
+        }
+    }
 }
