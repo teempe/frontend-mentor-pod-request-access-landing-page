@@ -105,6 +105,10 @@ body {
   border: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   width: 100%;
   max-width: var(--max-width-mobile);
@@ -234,6 +238,7 @@ body {
 .form {
   display: grid;
   gap: 1.6rem;
+  position: relative;
 }
 .form__input {
   padding: 0.9rem 0rem;
@@ -250,6 +255,11 @@ body {
 .form__input:focus {
   outline: none;
 }
+.form__validation-error {
+  position: absolute;
+  top: 44%;
+  left: 3.2rem;
+}
 @media only screen and (min-width: 48em) {
   .form {
     gap: 0;
@@ -260,6 +270,9 @@ body {
     padding: 1.4rem 0 1.4rem 3.2rem;
     grid-column: 1/-1;
     grid-row: 1/2;
+  }
+  .form__validation-error {
+    top: 112%;
   }
   .form .btn-main {
     grid-column: 2/3;

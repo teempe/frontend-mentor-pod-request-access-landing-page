@@ -1,6 +1,7 @@
 .form {
     display: grid;
     gap: 1.6rem;
+    position: relative;
 
     &__input {
         @include form-element-setup;
@@ -19,6 +20,12 @@
         }
     }
 
+    &__validation-error {
+        position: absolute;
+        top: 44%;
+        left: 3.2rem;
+    }
+
     @media only screen and (min-width: $bp-tablet) {
         gap: 0;
         grid-template-columns: 1fr 16.7rem;
@@ -30,11 +37,14 @@
             grid-row: 1 / 2;
         }
 
+        &__validation-error {
+            top: 112%;
+        }
+
         & .btn-main {
             grid-column: 2 / 3;
             grid-row: 1 / 2;
             margin-right: 0.5rem;
         }
-
     }
 }

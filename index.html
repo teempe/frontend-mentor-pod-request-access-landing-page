@@ -35,12 +35,14 @@
                         <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts" class="stream-services__pocket-casts">
                     </li>
                 </ul>
-                <form action="#" class="form">
+                <form action="#" novalidate class="form">
                     <label for="email" class="visually-hidden">Email address</label>
                     <input type="email" name="email" id="email" placeholder="Email address" class="form__input form-text">
+                    <p class="form__validation-error error-msg-text hidden">Oops! Please check your email</p>
                     <button type="submit" class="btn-main form-text">Request access</button>
                 </form>
             </main>
         </div>
+        <script type="module" src="script.js"></script>
     </body>
 </html>
