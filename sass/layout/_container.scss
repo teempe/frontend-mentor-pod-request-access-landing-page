@@ -23,4 +23,14 @@
             var(--color-very-dark-blue);
         background-blend-mode: normal;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        max-width: var(--max-width-desktop);
+        padding: 10.2rem 55.2rem 13rem 16.5rem;
+
+        background:
+            no-repeat bottom 7.8rem right 0rem url("../assets/desktop/bg-pattern-dots.svg"),
+            no-repeat right 0 top 13rem url("../assets/desktop/image-host.jpg"), 
+        var(--color-very-dark-blue);
+    }
 }

@@ -13,6 +13,7 @@
   --fw-bold: 700;
   --max-width-mobile: 37.5rem;
   --max-width-tablet: 76.8rem;
+  --max-width-desktop: 144rem;
 }
 
 * {
@@ -56,6 +57,12 @@ body {
   .heading-main {
     font-size: 4.8rem;
     line-height: 5.6rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .heading-main {
+    font-size: 5.2rem;
+    line-height: 6.2rem;
   }
 }
 
@@ -116,9 +123,16 @@ body {
     background-blend-mode: normal;
   }
 }
+@media only screen and (min-width: 90em) {
+  .container {
+    max-width: var(--max-width-desktop);
+    padding: 10.2rem 55.2rem 13rem 16.5rem;
+    background: no-repeat bottom 7.8rem right 0rem url("../assets/desktop/bg-pattern-dots.svg"), no-repeat right 0 top 13rem url("../assets/desktop/image-host.jpg"), var(--color-very-dark-blue);
+  }
+}
 
 .header {
-  padding-bottom: 15.2rem;
+  padding-bottom: 10.3rem;
 }
 
 .content {
@@ -159,6 +173,15 @@ body {
     grid-area: form;
     max-width: 42.7rem;
     margin-bottom: 6.4rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .content {
+    padding-top: 8.8rem;
+    padding-right: 5.8rem;
+  }
+  .content .heading-main {
+    margin-bottom: 2.4rem;
   }
 }
 

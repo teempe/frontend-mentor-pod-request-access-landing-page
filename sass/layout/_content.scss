@@ -54,4 +54,30 @@
                 margin-bottom: 6.4rem;
             }
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding-top: 8.8rem;
+        padding-right: 5.8rem;
+
+        & .heading-main {
+            margin-bottom: 2.4rem;
+        }
+    
+        // & .paragraph {
+        //     max-width: 44.5rem;
+        //     margin-bottom: 4rem;
+        // }
+    
+        // & .stream-services {
+        //     grid-area: services;
+        //     max-width: 53.6rem;
+        //     margin-bottom: 0rem;
+        // }
+
+        // & .form {
+        //     grid-area: form;
+        //     max-width: 42.7rem;
+        //     margin-bottom: 6.4rem;
+        // }
+    }
 }
