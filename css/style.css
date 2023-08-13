@@ -132,7 +132,17 @@ body {
 }
 
 .header {
-  padding-bottom: 10.3rem;
+  padding-bottom: 5.7rem;
+}
+@media only screen and (min-width: 48em) {
+  .header {
+    padding-bottom: 15.2rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .header {
+    padding-bottom: 10.3rem;
+  }
 }
 
 .content {

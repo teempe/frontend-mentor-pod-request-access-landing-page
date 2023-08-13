@@ -1,4 +1,11 @@
 .header {
-    // padding-top: 6.2rem;
-    padding-bottom: 10.3rem;
+    padding-bottom: 5.7rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+        padding-bottom: 15.2rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding-bottom: 10.3rem;
+    }
 }
