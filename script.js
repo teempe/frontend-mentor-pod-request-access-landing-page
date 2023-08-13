@@ -26,12 +26,20 @@ const cleanForm = () => {
 const handleFormSubmit = event => {
     event.preventDefault();
     hideErrorMsg();
+    
     const inputValue = emailInput.value.trim();
     if (validateEmail(inputValue)) {
         console.log(`Success! ${inputValue} registered.`);
         cleanForm();
         return;
     }
+
+    if (inputValue.length === 0) {
+        errorMsg.innerText = 'Oops! Please add your email';
+    } else {
+        errorMsg.innerText = 'Oops! Please check your email';
+    }
+
     showErrorMsg();
 }
 
